@@ -88,11 +88,11 @@ function (cluster_file = "clusters.txt",
 			row.names(all_table) = NULL
 			return( all_table )
 		}else{
-			cat( "No significant MP term found.","\n" )
+			cat( "No significant GO term found.","\n" )
 			return( NULL )
 		}
 	}else{
-		cat( "No significant MP term found.","\n" )
+		cat( "No significant GO term found.","\n" )
 		return( NULL )
 	}
 }
