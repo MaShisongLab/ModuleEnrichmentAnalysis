@@ -1,8 +1,8 @@
-# EnrichmentAnalysis
+# ModuleEnrichmentAnalysis
 
 **An algorithm for performing GO and MP term enrichment analysis in mouse**
 
-**EnrichmentAnalysis** is a algorithm to perform enrichment analysis for mouse gene sets. The GO term annotations were obtained from Ensembl BioMart, while the MP term annotations were obtained from MGI ([Mouse Genome Informatics](https://www.informatics.jax.org/downloads/reports/index.html)). 
+**ModuleEnrichmentAnalysis** is an algorithm to perform enrichment analysis for mouse gene sets. The GO term annotations were obtained from Ensembl BioMart, while the MP term annotations were obtained from MGI ([Mouse Genome Informatics](https://www.informatics.jax.org/downloads/reports/index.html)). 
 
 ## Table of Contents
 - [Install](#Install)
@@ -10,7 +10,7 @@
 - [References](#References)
 
 ## Install
-This algorithm works in R. Copy the file `EnrichmentAnalysis.R` to your R working folder, and source the file in R and start using it.
+This algorithm works in R. Copy the file `ModuleEnrichmentAnalysis.R` to your R working folder, source the file in R, and start using it.
 
 
 ## Usage
@@ -39,7 +39,7 @@ The functions are:
 
 ```R
 # R code
-source('EnrichmentAnalysis.R')
+source('ModuleEnrichmentAnalysis.R')
 go = go_enrichment_analysis('clusters.txt')
 mp = mp_enrichment_analysis('clusters.txt')
 write.csv(go,'go.results.csv')
