@@ -50,5 +50,5 @@ The results are save to `go.results.csv` and `mp.results.csv`.
 
 ## References
 
-To be added.
+Xu Y, Wang Y, and Ma S. 2024. SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer. *submitted*
 
